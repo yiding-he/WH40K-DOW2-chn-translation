@@ -1,8 +1,12 @@
 # WH40K-DOW2-chn-translation
 
-_项目开发正在进行中 (This project is working in progress)_
-
 《战锤40K：战争黎明2 周年纪念版》简体中文翻译
+
+![](_imgs/15620_3377.jpg)
+
+![](_imgs/15620_3378.jpg)
+
+![](_imgs/15620_3379.jpg)
 
 ### 简介
 
@@ -28,19 +32,23 @@ https://store.steampowered.com/news/app/15620/view/4674262774470822179
 
 ### 项目内容
 
-我已经收集到三个版本各自的汉化补丁，并放在 `chinese` 目录:
-- `chinese/down2`: 战锤 40K：战争黎明 2
-- `chinese/down2_c`: 战锤 40K：战争黎明 2 混沌崛起
-- `chinese/down2_r`: 战锤 40K：战争黎明 2 报应
+我已经收集到三个版本各自的汉化补丁，并放在 `src/main/resources/chinese` 目录:
+- `/down2`: 战锤 40K：战争黎明 2
+- `/down2_c`: 战锤 40K：战争黎明 2 混沌崛起
+- `/down2_r`: 战锤 40K：战争黎明 2 报应
 
 接下来要做的就是将这三个汉化补丁内容合到一起。好在三个游戏中，每条文本都有唯一的
 ID，也就是每个 ID 在三个游戏中的含义是相同的。因此，可以将三个游戏的汉化补丁合并为一个文件。
 
 ### 汉化补丁使用方法：
 
-将 `chinese` 目录下的文件复制到 `Dawn of War 2\GameAssets\Locale\English\` 目录下，覆盖原有文件即可。
+将 `chinese` 目录下的 `DOW2.ucs` 和 `font_mapping.ini` 复制到 `Dawn of War 2\GameAssets\Locale\English\` 目录下，覆盖原有文件即可。
 
 覆盖前请备份原有文件，以防止出现意外。
+
+### 注意事项：
+
+因为本人也没有完全体验游戏内容，因此无法保证汉化的完整度。如果发现有问题，欢迎提交 issue 或 PR。
 
 ### 其他相关：
 
